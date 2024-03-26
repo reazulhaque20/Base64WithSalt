@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class Main {
     private static final Random rand = new Random((new Date()).getTime());
-    
+
     public static void main(String[] args) {
         String st = "secrete";
         String enc = encrypt(st);
